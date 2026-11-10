@@ -117,8 +117,19 @@ def main():
         for line in sums.read_text().splitlines():
             h,name=line.split('  ',1)
             f=ROOT/name
-            require(f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==h, f'Checksum failure: {name}')
-        print('PASS release checksums')
+            require(f.is_file(), f'Missing release file: {name}')
+            content=f.read_bytes()
+            valid=hashlib.sha256(content).hexdigest()==h
+            if not valid and f.suffix.lower()=='.csv':
+                # Git may convert CSV line endings between CRLF (Windows) and LF (Linux).
+                # Verify the *same CSV content* using both byte-level line-ending forms;
+                # never relax checksum checks for model archives, code or binary assets.
+                lf=content.replace(b'\r\n', b'\n')
+                crlf=lf.replace(b'\n', b'\r\n')
+                valid=(hashlib.sha256(lf).hexdigest()==h or
+                       hashlib.sha256(crlf).hexdigest()==h)
+            require(valid, f'Checksum failure: {name}')
+        print('PASS release checksums (CSV line endings tolerated)')
     print('AUDIT COMPLETE: archive-prediction-level only; clinical and patient provenance not independently verified')
 
 if __name__=='__main__':
