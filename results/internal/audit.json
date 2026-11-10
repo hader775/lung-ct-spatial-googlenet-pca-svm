@@ -1,0 +1,33 @@
+{
+  "n_images": 1054,
+  "whole_feature_shape": [
+    1054,
+    1024
+  ],
+  "patch_feature_shape": [
+    1054,
+    64,
+    1024
+  ],
+  "labels_shape": [
+    1054
+  ],
+  "groups_shape": [
+    1054
+  ],
+  "folds_shape": [
+    1054
+  ],
+  "image_size": 224,
+  "patch_grid": "8x8",
+  "patch_count": 64,
+  "feature_dim": 1024,
+  "network": "GoogLeNet",
+  "weights": "IMAGENET1K_V1",
+  "device": "cuda",
+  "class_counts": {
+    "Benign": 102,
+    "Malignant": 547,
+    "Normal": 405
+  }
+}

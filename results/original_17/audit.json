@@ -1,0 +1,22 @@
+{
+  "input_archive": "/kaggle/input/datasets",
+  "cache_fingerprint": "2b6764d3c79f11bb4c645b7b6eaa96d01cc2959226c7e6bcb1741d126152caa5",
+  "n": 1054,
+  "duplicates": 43,
+  "classes": [
+    "Benign",
+    "Malignant",
+    "Normal"
+  ],
+  "counts": [
+    102,
+    547,
+    405
+  ],
+  "groups": 432,
+  "image_size": 224,
+  "network_input": 224,
+  "preprocessing": "ImageNet normalization followed by GoogLeNet transform_input=True",
+  "pretrained_sha256": "1378be20a8e875cf1568b8a71654e704449655e34711a959a38b04fb34905cef",
+  "caveat": "Official 224x224 network input; identical for both experiments; frozen features; not patient-independent."
+}

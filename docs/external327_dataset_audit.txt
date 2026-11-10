@@ -1,0 +1,12 @@
+DATASET ARCHIVE AUDIT / 2026-10-24
+Dataset archive: archive (2).zip (uploaded by user; Kaggle source URL not provided).
+327 JPEG images / folders BENIGN 117, MALIGNANT 100, NORMAL 110.
+Compared against 1097 original IQ-OTH/NCCD images from البيانات الخام من الموقع الاصلي.zip.
+Byte-identical SHA-256 matching: 0 of 327.
+Grayscale-resized 224x224 identical matching: 0 of 327.
+Nearest pHash Hamming <=8 (8x8 DCT): 0 of 327. Min observed distance 9.
+Within archive 327: 0 byte-identical, 0 resized-pixel-identical; 55 image-pairs pHash distance <=3 (potential adjacent slices).
+No patient identifiers, pathology verification, acquisition protocol or Kaggle source link contained in archive.
+Thus this is an EXPLORATORY image-level 3-class transfer test, NOT verified patient-independent validation.
+Evaluate the frozen model without fine tuning or threshold tuning on this dataset.
+See archive327_overlap_audit.csv and archive327_nearest_comparisons.jpg.

@@ -1,0 +1,19 @@
+Figure,Description,Notes
+fig01_all_models_scatter,All 17 configurations: accuracy vs macro-F1,Internal similarity-controlled evaluation
+fig02_ablation_16,"Ablation study, 16 patches","Pooled out-of-fold metrics, exploratory"
+fig03_ablation_64,"Ablation study, 64 patches","Pooled out-of-fold metrics, exploratory"
+fig04_patch_count_sensitivity,Sensitivity to number of retained positions,All-64 is a no-selection baseline (not relevance-ranked)
+fig05_selection_methods_20,Selection methods at k=20,"Random is one fixed draw per fold, not averaged over seeds"
+fig06_granularity_16_vs_64,Granularity comparison,Patch size and spatial context change with grid size
+fig07_internal_confusion_counts,"Internal 3-class confusion matrix, counts",1054 pooled out-of-fold image predictions
+fig08_internal_confusion_normalized,Internal normalized confusion matrix,Row-normalized percentages
+fig09_internal_class_recall,Class-specific recall for 64-patch models,Highlights minority benign sensitivity
+fig10_internal_roc_exploratory,Internal OVR ROC for best model,Uncalibrated decision scores pooled across five folds; exploratory only
+fig11_spatial_selection_frequency,Frequency of each spatial patch selected,"Counts across five folds, not clinical saliency or lesion localization"
+fig12_paired_macro_f1_intervals,Paired bootstrap differences,"Similarity-group resampling, not patient-independent or model-selection-adjusted"
+fig13_dataset_class_distribution,IQ-OTH/NCCD class distribution,"SHA-256 unique files, not independent patients"
+fig14_external_confusion_counts,LUNGx confusion matrix,"2-class nodule truth, 3-class frozen model predictions"
+fig15_external_binary_roc,LUNGx conditional-score ROC,"Binary score ranking on a cross-task transfer, not a task-matched external validation"
+fig16_external_malignancy_score_distribution,External malignancy-score distributions,Score is conditional on benign vs malignant; model still predicts Normal sometimes
+fig17_external_predicted_classes,External predicted-class distribution,"72 Malignant, 1 Normal, 0 Benign"
+fig18_internal_precision_recall_by_class,Internal precision and recall by class,From verified pooled confusion matrix

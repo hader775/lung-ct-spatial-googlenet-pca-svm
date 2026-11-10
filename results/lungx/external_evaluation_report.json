@@ -1,0 +1,34 @@
+{
+  "scope": "Cross-task external transfer: IQ-OTH/NCCD trained three-class CT-slice model vs LUNGx benign/malignant nodule labels",
+  "patient_count": 60,
+  "nodule_count": 73,
+  "ground_truth_counts": {
+    "Benign": 37,
+    "Malignant": 36
+  },
+  "strict_accuracy_including_normal_errors": 0.4931506849315068,
+  "conditional_malignant_auc": 0.6786786786786787,
+  "out_of_task_normal_prediction_rate": 0.0136986301369863,
+  "binary_accuracy_only_when_not_normal": 0.5,
+  "coverage_not_normal": 0.9863013698630136,
+  "patient_cluster_bootstrap_95ci_strict_accuracy": [
+    0.36363636363636365,
+    0.6216216216216216
+  ],
+  "patient_cluster_bootstrap_95ci_auc": [
+    0.5469293742422422,
+    0.8100780707267856
+  ],
+  "patient_cluster_bootstrap_95ci_normal_rate": [
+    0.0,
+    0.04411764705882353
+  ],
+  "normal_predictions_count": 1,
+  "no_retraining_or_external_tuning": true,
+  "not_3class_external_validation": true,
+  "original_weights_frozen": true,
+  "image_policy": "One full nodule-containing DICOM slice; [-1000,400] HU; 224 resized; 64 granules (28x28); model per granule input=224; no ROI crop",
+  "ground_truth_file_sha256": "21270dca3c696e61d5e7ea2af8716d87018d226c14aaa179f2483df2c72ce27d",
+  "frozen_archive_sha256": "e81f1a3c3e262c5230c82d3f66b5b53f17563224fd1e19cb67a1723a29fbf186",
+  "disclaimer": "An exploratory out-of-domain binary transfer experiment with task and image-representation mismatch. Does not verify clinical generalization to three-class CT-slice classification."
+}

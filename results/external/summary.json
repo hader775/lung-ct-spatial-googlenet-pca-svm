@@ -1,0 +1,20 @@
+{
+  "dataset_total_images": 327,
+  "true_class_counts": {
+    "Benign": 117,
+    "Normal": 110,
+    "Malignant": 100
+  },
+  "predicted_class_counts": {
+    "Malignant": 327
+  },
+  "accuracy_pct": 30.581,
+  "macro_f1_pct": 15.6128,
+  "balanced_accuracy_pct": 33.3333,
+  "benign_recall_pct": 0.0,
+  "important_limitations": [
+    "This is image-level, not patient-independent validation",
+    "Dataset source and class annotation provenance not established",
+    "Do not tune the frozen model on this test set"
+  ]
+}

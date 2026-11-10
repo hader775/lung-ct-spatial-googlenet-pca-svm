@@ -1,0 +1,2 @@
+Method,Accuracy,Macro-F1,Benign Recall
+Whole-image GoogLeNet + PCA64 + RBF-SVM,91.46110056925995,82.46323213250481,55.88235294117647

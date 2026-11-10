@@ -1,0 +1,4 @@
+,Pred Benign,Pred Malignant,Pred Normal
+True Benign,0,36,1
+True Malignant,0,36,0
+True Normal,0,0,0

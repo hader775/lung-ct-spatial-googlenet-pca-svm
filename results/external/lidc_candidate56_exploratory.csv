@@ -1,0 +1,57 @@
+Patient ID,Patient dx,Patient evidence,Nodule 1 dx code,Nodule 1 evidence code,Tumor site / note
+LIDC-IDRI-0090,Primary lung cancer,Surgical resection,2.0,3.0,NSCLC
+LIDC-IDRI-0138,Primary lung cancer,Biopsy,2.0,2.0,Lung Cancer
+LIDC-IDRI-0149,Benign / non-malignant,2-year imaging stability,1.0,1.0,chondrosarcoma
+LIDC-IDRI-0162,Benign / non-malignant,2-year imaging stability,1.0,1.0,gallbladder
+LIDC-IDRI-0163,Primary lung cancer,Biopsy,2.0,2.0,non small cell lung
+LIDC-IDRI-0166,Primary lung cancer,Biopsy,2.0,2.0,stage III lung cancer
+LIDC-IDRI-0167,Benign / non-malignant,2-year imaging stability,1.0,1.0,LGL (T cell lymphoma)
+LIDC-IDRI-0168,Benign / non-malignant,Surgical resection,1.0,3.0,"organizing pneumonia, also leukemia"
+LIDC-IDRI-0171,Benign / non-malignant,2-year imaging stability,1.0,1.0,Lymphoma
+LIDC-IDRI-0174,Primary lung cancer,Surgical resection,2.0,3.0,nonsmall cell lung cancer
+LIDC-IDRI-0178,Benign / non-malignant,2-year imaging stability,1.0,1.0,melanoma
+LIDC-IDRI-0180,Benign / non-malignant,2-year imaging stability,1.0,1.0,LGL (T cell lymphoma)
+LIDC-IDRI-0183,Benign / non-malignant,Biopsy,1.0,2.0,Pulmonary cryptococcosis
+LIDC-IDRI-0185,Benign / non-malignant,2-year imaging stability,1.0,1.0,HCC
+LIDC-IDRI-0186,Primary lung cancer,Biopsy,2.0,0.0,nonsmall cell lung cancer
+LIDC-IDRI-0187,Benign / non-malignant,Surgical resection,1.0,3.0,"organizing pneumonia, also leukemia"
+LIDC-IDRI-0191,Primary lung cancer,Biopsy,2.0,2.0,lung cancer
+LIDC-IDRI-0197,Benign / non-malignant,2-year imaging stability,1.0,1.0,Colon
+LIDC-IDRI-0203,Primary lung cancer,Biopsy,2.0,2.0,"non small cell lung, lymphoma"
+LIDC-IDRI-0205,Benign / non-malignant,2-year imaging stability,1.0,1.0,Left chest wall chondrosarcoma
+LIDC-IDRI-0211,Primary lung cancer,Biopsy,2.0,2.0,NSCLC
+LIDC-IDRI-0212,Benign / non-malignant,2-year imaging stability,1.0,1.0,Breast cancer
+LIDC-IDRI-0214,Primary lung cancer,Surgical resection,2.0,3.0,non small cell lung 
+LIDC-IDRI-0233,Benign / non-malignant,2-year imaging stability,1.0,1.0,Medullary thyroid cancer
+LIDC-IDRI-0234,Benign / non-malignant,2-year imaging stability,1.0,1.0,renal cell carcinoma
+LIDC-IDRI-0242,Primary lung cancer,Biopsy,2.0,2.0,non small cell lung
+LIDC-IDRI-0246,Benign / non-malignant,2-year imaging stability,1.0,1.0,mantle cell lymphoma
+LIDC-IDRI-0247,Benign / non-malignant,2-year imaging stability,1.0,1.0,rectal neuroendocrine
+LIDC-IDRI-0249,Primary lung cancer,Surgical resection,2.0,3.0,non small cell lung
+LIDC-IDRI-0256,Benign / non-malignant,2-year imaging stability,1.0,1.0,"colon cancer, lung cancer"
+LIDC-IDRI-0265,Primary lung cancer,Biopsy,2.0,2.0,lung cancer
+LIDC-IDRI-0267,Primary lung cancer,Surgical resection,2.0,3.0,non small cell lung
+LIDC-IDRI-0268,Benign / non-malignant,2-year imaging stability,1.0,1.0,leiomyosarcoma
+LIDC-IDRI-0270,Benign / non-malignant,2-year imaging stability,1.0,1.0,mantle cell lymphoma
+LIDC-IDRI-0273,Benign / non-malignant,2-year imaging stability,1.0,1.0,primary breast cancer
+LIDC-IDRI-0275,Benign / non-malignant,2-year imaging stability,1.0,1.0,Tonsil cancer
+LIDC-IDRI-0276,Benign / non-malignant,2-year imaging stability,1.0,1.0,esophageal lesion
+LIDC-IDRI-0277,Benign / non-malignant,2-year imaging stability,1.0,1.0,multiple primary cancers
+LIDC-IDRI-0279,Benign / non-malignant,2-year imaging stability,1.0,1.0,Lymphoma
+LIDC-IDRI-0283,Benign / non-malignant,2-year imaging stability,1.0,2.0,lymphoma
+LIDC-IDRI-0286,Benign / non-malignant,2-year imaging stability,1.0,1.0,uterus leiomyosarcoma
+LIDC-IDRI-0289,Benign / non-malignant,Surgical resection,1.0,3.0,"solitary fibrous tumor, also with renal ca"
+LIDC-IDRI-0290,Primary lung cancer,Surgical resection,2.0,3.0,carcinoid lung
+LIDC-IDRI-0332,Primary lung cancer,Surgical resection,2.0,3.0,RUL
+LIDC-IDRI-0377,Primary lung cancer,Surgical resection,2.0,3.0,LUL adeno CA Stage 1A
+LIDC-IDRI-0385,Primary lung cancer,Surgical resection,2.0,3.0,T1N0M0 stage 1A
+LIDC-IDRI-0399,Benign / non-malignant,2-year imaging stability,1.0,1.0,cervical cancer
+LIDC-IDRI-0470,Primary lung cancer,Biopsy,2.0,2.0,nonsmall cell lung cancer
+LIDC-IDRI-0493,Primary lung cancer,Surgical resection,2.0,3.0,RLL T2N0M1 adeno ca
+LIDC-IDRI-0559,Benign / non-malignant,2-year imaging stability,1.0,1.0,Neuroendocrine cancer
+LIDC-IDRI-0568,Primary lung cancer,Surgical resection,2.0,3.0,RUL stage 2B NSCLC
+LIDC-IDRI-0580,Primary lung cancer,Surgical resection,2.0,3.0,"R Squamous cell, stage 3A"
+LIDC-IDRI-0610,Primary lung cancer,Surgical resection,2.0,3.0,RUL Squamous cell stage 1A
+LIDC-IDRI-0939,Primary lung cancer,Surgical resection,2.0,3.0,RUL Small cell
+LIDC-IDRI-0994,Primary lung cancer,Surgical resection,2.0,3.0,LUL Large cell CA
+LIDC-IDRI-1004,Primary lung cancer,Surgical resection,2.0,3.0,LUL NSCLC

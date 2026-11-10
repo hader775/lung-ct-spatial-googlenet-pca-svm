@@ -1,0 +1,32 @@
+{
+  "internal_ablation_models": 17,
+  "class_counts": [
+    102,
+    547,
+    405
+  ],
+  "external_nodules": 73,
+  "external_patients": 60,
+  "internal_all64_accuracy": 0.9667931688804554,
+  "internal_all64_macro_f1": 0.9301694018742485,
+  "external_strict_accuracy": 0.4931506849315068,
+  "external_conditional_auc_recomputed": 0.6786786786786787,
+  "external_confusion": [
+    [
+      0,
+      36,
+      1
+    ],
+    [
+      0,
+      36,
+      0
+    ]
+  ],
+  "cautions": [
+    "No patient IDs for IQ-OTH/NCCD",
+    "LUNGx is cross-task binary-nodule transfer",
+    "Internal OVR decision scores are not probabilities",
+    "No training curves exist because GoogLeNet was frozen"
+  ]
+}

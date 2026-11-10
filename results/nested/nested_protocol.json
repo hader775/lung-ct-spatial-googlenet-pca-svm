@@ -1,0 +1,38 @@
+{
+  "dataset_n": 1054,
+  "class_counts": {
+    "0": 102,
+    "1": 547,
+    "2": 405
+  },
+  "similarity_groups": 432,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "number_of_candidate_models": 17,
+  "selection_metric": "pooled inner out-of-fold macro-F1",
+  "outer_metric": "pooled outer out-of-fold classification",
+  "candidate_models": {
+    "16": [
+      "mean:0",
+      "all:16",
+      "relevance:4",
+      "random:8",
+      "relevance:8",
+      "MID:8",
+      "MIQ:8",
+      "relevance:12"
+    ],
+    "64": [
+      "mean:0",
+      "all:64",
+      "relevance:8",
+      "relevance:16",
+      "random:20",
+      "relevance:20",
+      "MID:20",
+      "MIQ:20",
+      "relevance:32"
+    ]
+  },
+  "warning": "NO verified patient IDs; results remain similarity-grouped image-level evaluation. Internal model-selection protocol was designed after seeing prior Stage 2 results; this does NOT constitute a pristine independently pre-registered validation."
+}

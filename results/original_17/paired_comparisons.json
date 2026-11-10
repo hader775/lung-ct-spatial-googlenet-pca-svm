@@ -1,0 +1,86 @@
+[
+  {
+    "size": 64,
+    "a": "relevance_20",
+    "b": "all",
+    "acc_delta": -0.024667931688804545,
+    "f1_delta": -0.043754574117934375,
+    "acc_CI_95": [
+      -0.03853050705336885,
+      -0.013321105679291517
+    ],
+    "macro_f1_CI_95": [
+      -0.06973145977621871,
+      -0.023007571156688975
+    ],
+    "note": "Similarity group bootstrap; exploratory only; NOT patient clustered or selection-adjusted."
+  },
+  {
+    "size": 64,
+    "a": "MIQ_20",
+    "b": "relevance_20",
+    "acc_delta": 0.001897533206831059,
+    "f1_delta": 0.00389954450631258,
+    "acc_CI_95": [
+      -0.007993473625759574,
+      0.01191683445241102
+    ],
+    "macro_f1_CI_95": [
+      -0.017576516016217906,
+      0.02593329837318729
+    ],
+    "note": "Similarity group bootstrap; exploratory only; NOT patient clustered or selection-adjusted."
+  },
+  {
+    "size": 64,
+    "a": "MID_20",
+    "b": "relevance_20",
+    "acc_delta": 0.003795066413662229,
+    "f1_delta": 0.0021320783521729947,
+    "acc_CI_95": [
+      -0.005591798695246955,
+      0.012845377740263572
+    ],
+    "macro_f1_CI_95": [
+      -0.018663580632526322,
+      0.02258907843821746
+    ],
+    "note": "Similarity group bootstrap; exploratory only; NOT patient clustered or selection-adjusted."
+  },
+  {
+    "size": 16,
+    "a": "relevance_8",
+    "b": "all",
+    "acc_delta": -0.004743833017077814,
+    "f1_delta": -0.0023679217434539046,
+    "acc_CI_95": [
+      -0.019481787743506555,
+      0.010419156309751492
+    ],
+    "macro_f1_CI_95": [
+      -0.031230922760235435,
+      0.027933705698916903
+    ],
+    "note": "Similarity group bootstrap; exploratory only; NOT patient clustered or selection-adjusted."
+  },
+  {
+    "a": "64:all",
+    "b": "16:all",
+    "macro_f1_delta": 0.04171177191359443,
+    "bootstrap_interval": [
+      0.010459794485404805,
+      0.0786638820705709
+    ],
+    "confounding": "Different patch size, resizing, and context; not an isolated effect of granule count."
+  },
+  {
+    "a": "64:relevance_20",
+    "b": "16:relevance_8",
+    "macro_f1_delta": 0.0003251195391139605,
+    "bootstrap_interval": [
+      -0.027430910348619695,
+      0.030195308191807144
+    ],
+    "confounding": "Different patch size, resizing, and context; not an isolated effect of granule count."
+  }
+]

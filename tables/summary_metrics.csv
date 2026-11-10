@@ -1,0 +1,3 @@
+Dataset,Image/nodule count,Unit,Task,Accuracy,Macro-F1,Benign recall,Notes
+IQ-OTH/NCCD (internal),1054,CT images,Benign/Malignant/Normal,0.9667931688804554,0.9301694018742485,0.7549019607843137,Five-fold similarity-controlled; no patient IDs
+LUNGx (external transfer),73,Annotated nodules,"Benign/Malignant labels, full-slice 3-class predictions",0.4931506849315068,,0.0,"Cross-task, 60 patients; no direct three-class external validation"

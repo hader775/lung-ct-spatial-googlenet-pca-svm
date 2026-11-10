@@ -1,0 +1,20 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.npy
+*.npz
+*.joblib
+*.pth
+*.dcm
+*.nii
+*.nii.gz
+*.rar
+*.zip
+outputs/
+.cache/
+.ipynb_checkpoints/
+.env
+!results/**/*.csv
+
+# Permit the explicitly approved final trained artifact in the FULL release
+!models/GHDNN_FROZEN_MODEL.zip

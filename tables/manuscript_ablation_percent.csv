@@ -1,0 +1,18 @@
+Patch grid,Model,Accuracy (%),Macro-F1 (%),Benign recall (%),Balanced accuracy (%)
+16 patches,Mean pooling,91.27,83.18,70.59,85.09
+16 patches,All patches,94.78,88.85,68.63,87.65
+16 patches,Relevance 4,94.31,89.12,69.61,87.61
+16 patches,Random 8,94.02,87.95,71.57,87.77
+16 patches,Relevance 8,94.31,88.61,68.63,87.3
+16 patches,MID 8,94.4,88.11,64.71,86.41
+16 patches,MIQ 8,94.31,88.04,64.71,86.32
+16 patches,Relevance 12,94.78,89.61,71.57,88.43
+64 patches,Mean pooling,93.55,88.27,81.37,89.93
+64 patches,All patches,96.68,93.02,75.49,91.07
+64 patches,Relevance 8,88.05,78.01,50.98,77.94
+64 patches,Relevance 16,92.6,86.28,61.76,84.39
+64 patches,Random 20,95.73,91.56,76.47,90.54
+64 patches,Relevance 20,94.21,88.64,63.73,86.13
+64 patches,MID 20,94.59,88.85,62.75,86.19
+64 patches,MIQ 20,94.4,89.03,63.73,86.33
+64 patches,Relevance 32,95.35,91.18,71.57,89.03

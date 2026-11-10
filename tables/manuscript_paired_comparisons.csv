@@ -1,0 +1,6 @@
+Comparison,Macro-F1 difference (pp),95% lower (pp),95% upper (pp),Caveat
+relevance_20 − all (64),-4.38,-6.97,-2.3,Exploratory similarity-group bootstrap
+MIQ_20 − relevance_20 (64),0.39,-1.76,2.59,Exploratory similarity-group bootstrap
+MID_20 − relevance_20 (64),0.21,-1.87,2.26,Exploratory similarity-group bootstrap
+relevance_8 − all (16),-0.24,-3.12,2.79,Exploratory similarity-group bootstrap
+64:all − 16:all,4.17,1.05,7.87,Exploratory similarity-group bootstrap
